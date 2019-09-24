@@ -1,7 +1,7 @@
 package datastore
 
 import (
-	"github.com/bradberger/gokv/kv"
+	"github.com/rubanbydesign/gokv/kv"
 	"golang.org/x/net/context"
 	ae "google.golang.org/appengine/datastore"
 )

@@ -3,8 +3,8 @@ package diskv
 import (
 	"strings"
 
-	"github.com/bradberger/gokv/codec"
-	"github.com/bradberger/gokv/kv"
+	"github.com/rubanbydesign/gokv/codec"
+	"github.com/rubanbydesign/gokv/kv"
 	"github.com/peterbourgon/diskv"
 )
 

@@ -6,8 +6,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/bradberger/gokv/codec"
-	"github.com/bradberger/gokv/kv"
+	"github.com/rubanbydesign/gokv/codec"
+	"github.com/rubanbydesign/gokv/kv"
 	"github.com/peterbourgon/diskv"
 	"github.com/stretchr/testify/assert"
 )

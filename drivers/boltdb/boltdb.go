@@ -4,8 +4,8 @@ import (
 	"os"
 
 	"github.com/boltdb/bolt"
-	"github.com/bradberger/gokv/codec"
-	"github.com/bradberger/gokv/kv"
+	"github.com/rubanbydesign/gokv/codec"
+	"github.com/rubanbydesign/gokv/kv"
 )
 
 var (

@@ -1,8 +1,8 @@
 package leveldb
 
 import (
-	"github.com/bradberger/gokv/codec"
-	"github.com/bradberger/gokv/kv"
+	"github.com/rubanbydesign/gokv/codec"
+	"github.com/rubanbydesign/gokv/kv"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 )

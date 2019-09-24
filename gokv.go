@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/bradberger/gokv/kv"
+	"github.com/rubanbydesign/gokv/kv"
 	"stathat.com/c/consistent"
 )
 

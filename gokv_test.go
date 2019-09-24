@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	dv "github.com/bradberger/gokv/drivers/diskv"
-	"github.com/bradberger/gokv/kv"
+	dv "github.com/rubanbydesign/gokv/drivers/diskv"
+	"github.com/rubanbydesign/gokv/kv"
 	"github.com/peterbourgon/diskv"
 
 	"github.com/stretchr/testify/assert"
