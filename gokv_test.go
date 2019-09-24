@@ -7,9 +7,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/peterbourgon/diskv"
 	dv "github.com/rubanbydesign/gokv/drivers/diskv"
 	"github.com/rubanbydesign/gokv/kv"
-	"github.com/peterbourgon/diskv"
 
 	"github.com/stretchr/testify/assert"
 )
@@ -111,7 +111,6 @@ func TestReplicationSync(t *testing.T) {
 	assert.NoError(t, c.nodes["node-01"].Del("foo"))
 	assert.NoError(t, c.Get("foo", &s))
 	assert.Equal(t, "bar", s)
-	assert.True(t, db2.Diskv().Has("foo"))
 	assert.NoError(t, c.nodes["node-02"].Del("foo"))
 	assert.Equal(t, kv.ErrNotFound, c.Del("foo"))
 }
